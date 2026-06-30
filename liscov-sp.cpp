@@ -12,7 +12,6 @@ class WithDrawAbleAccount : public NonWithDrawAbleAccount {
 public:
     virtual void withdraw(double amount) = 0;
 };
-
 class SavingsAccount: public WithDrawAbleAccount {
 private:
     double balance;
