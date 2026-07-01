@@ -1,0 +1,12 @@
+It defines a family of algorithm, put them in a separate class so that they can be changed at runtime.
+
+e.g.: the algorithms (methods), which can be changed in future, put them in a separate abstract class
+      and let the polymorphism play it's game by linking them with composition.
+
+Note: Solution of inheritance cannot be more inheritance.
+Tip:  Prefer composition over inheritance.
+
+Conclusions:
+
+1. Encapsulate what varies and keep it separate from what remains same
+2. Do Not Repeat Yourself (DRY)
